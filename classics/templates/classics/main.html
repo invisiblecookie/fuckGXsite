@@ -1,0 +1,38 @@
+{% extends 'classics/base.html' %}
+
+{% load static %}
+
+	
+    {% block content %}
+	<h2 id="经">经</h2>
+	<div style="padding:5px 40px">
+	{% for cata in cata1 %}
+    
+        <a href="{% url 'classics:bookCatalog' cata.slug %}"> {{ cata.title }} </a> &nbsp;
+
+    {% endfor %}
+	</div>
+	<h2 id="史">史</h2>
+	<div style="padding:5px 40px">
+		{% for cata in cata2 %}
+
+			<a href="{% url 'classics:bookCatalog' cata.slug %}"> {{ cata.title }} </a> &nbsp;
+	  
+		{% endfor %}
+	</div>
+
+	<h2 id="子">子</h2>
+	<div style="padding:5px 40px">
+		{% for cata in cata3 %}
+
+			<a href="{% url 'classics:bookCatalog' cata.slug %}"> {{ cata.title }} </a> &nbsp;
+	  
+		{% endfor %}
+	</div>
+
+	<h2 id="集">集</h2>
+	<p>集部内容。</p>
+
+    {% endblock %}
+
+    

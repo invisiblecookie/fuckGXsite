@@ -1,0 +1,123 @@
+/*a:link {
+    text-decoration: none;
+    
+    color: black;
+}
+
+
+
+a:hover {
+
+    color: yellowgreen;
+}
+*/
+
+#record-button {
+    background-color:#333;
+    cursor: pointer;
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+      
+}
+
+#record-button:hover {
+    background-color:black;
+}
+
+#stop-button {
+    
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+      
+}
+
+
+#main {
+    display:inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 50px;
+    float: right;
+    text-align: right;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+h1 {
+    display:inline-block;
+    margin-left: 1%;
+    vertical-align: middle;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+p {
+    font-size: 14px;
+}
+
+div a:link {
+    text-decoration: none;
+    
+    color: black;
+}
+
+div a:hover {
+    text-decoration: underline;
+}
+
+div a:visited {
+    color: black;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.book_description {
+    font-size: 12px;
+    text-align: center;
+}
+
+.subtitle {
+    margin-left: 60px;
+}
+
+.content {
+    margin-left: 8%;
+    margin-right: 8%;
+}

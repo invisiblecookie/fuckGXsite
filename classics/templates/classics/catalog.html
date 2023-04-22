@@ -1,0 +1,16 @@
+{% extends 'classics/base.html' %}
+
+{% load static %}
+
+
+{% block content %}
+    <div class="book">
+        <h3>{{ book }}</h3>
+        <p class="book_description">{{ book.description }}</p>
+        {% for subtitle in subtitles %}
+            <p class="subtitle"><a href="{% url 'classics:bookContent' subtitle.book.slug subtitle.slug %}">{{ subtitle }}</a></p>
+        {% endfor %}
+        
+    </div>
+{% endblock %}
+
